@@ -16,6 +16,9 @@ public class Student {
         this.diemKTHP = diemKTHP;
         this.soTietNghi = soTietNghi;
     }
+    public int getAge(){
+        return 2025-namSinh;
+    }
 
     public String getTen() {
         return ten;
@@ -45,6 +48,10 @@ public class Student {
         return soTietNghi;
     }
 
+    public double getGPA(){
+        return tx1*0.2+tx2*0.3+diemKTHP*0.5;
+    }
+
     public void hienThiThongTin() {
         double gpa = tx1 * 0.2 + tx2 * 0.3 + diemKTHP * 0.5;
 
@@ -54,6 +61,7 @@ public class Student {
                 ", TX2: " + tx2 +
                 ", KTHP: " + diemKTHP +
                 ", GPA: " + gpa +
-                ", Tiết nghỉ: " + soTietNghi);
+                ", Tiết nghỉ: " + soTietNghi +
+                ", Tuổi: " + (2025 - namSinh));
     }
 }
