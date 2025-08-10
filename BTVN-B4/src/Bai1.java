@@ -33,6 +33,7 @@ public class Bai1 {
             students[i].hienThiThongTin();
         }
 
+        // update
         System.out.println("\nSửa thông tin sinh viên thứ 2:");
         students[1] = new Student("Phuc", 2006, "HCM", 9, 9, 9, 0);
         for (int i = 0; i < sv; i++) {
@@ -50,6 +51,7 @@ public class Bai1 {
             students[i].hienThiThongTin();
         }
 
+        // Sắp xếp theo số tiết nghỉ
         System.out.println("\nSắp xếp theo số tiết nghỉ:");
         for (int i = 0; i < sv - 1; i++) {
             for (int j = i + 1; j < sv; j++) {
@@ -64,6 +66,7 @@ public class Bai1 {
             students[i].hienThiThongTin();
         }
 
+        // Sắp xếp theo tuổi
         System.out.println("\nSắp xếp theo tuổi:");
         for (int i = 0; i < sv - 1; i++) {
             for (int j = i + 1; j < sv; j++) {

@@ -6,7 +6,7 @@ public class SinhVien {
     private double diem;//Biến toàn cục
 
 
-    //4.1 cóntructor mặc đinh
+    //4.1 constructor mặc đinh
     //khởi tạo các giá trị mặc định
     //ngay khi đối tượng vừa được tạo ra
     public SinhVien(){
@@ -14,7 +14,7 @@ public class SinhVien {
         diem = 0.0;
     }
     //Alt + ins
-    //4.2 cóntructor có đối số
+    //4.2 constructor có đối số
 
 
     public SinhVien(String hoTen){
@@ -22,7 +22,7 @@ public class SinhVien {
     }
 
     public SinhVien(String hoTen, double diem) {//Biến cục bộ
-        this.hoTen = hoTen;//Dùng thí để phân biệt biến toàn cục và biến cục bộ
+        this.hoTen = hoTen;//Dùng this để phân biệt biến toàn cục và biến cục bộ
         this.diem = diem;//Nếu tên biến khác nhau thì không nhất thiết có this
     }
 

@@ -15,5 +15,5 @@ public abstract class NhanVien {
     }
     public abstract double tinhLuong();
     //trong class có phương thức trừu tượng thì bắt buộc class cũng phải là trừ tượng (abstract)
-    //trong phương thức trừ tượng thì không có phần thân ỏ nội dung hàm
+    //trong phương thức trừu tượng thì không có phần thân ỏ nội dung hàm
 }
